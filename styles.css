@@ -548,6 +548,19 @@ section {
     background: linear-gradient(135deg, #F05032 0%, #F77F6D 100%);
 }
 
+.tech-badge.html {
+    background: linear-gradient(135deg, #E34F26 0%, #F06529 100%);
+}
+
+.tech-badge.css {
+    background: linear-gradient(135deg, #1572B6 0%, #33A9DC 100%);
+}
+
+.tech-badge.js {
+    background: linear-gradient(135deg, #F7DF1E 0%, #F0DB4F 100%);
+    color: #000;
+}
+
 /* Project Buttons */
 .project-buttons {
     display: flex;
