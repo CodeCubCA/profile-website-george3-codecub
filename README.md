@@ -43,7 +43,11 @@ profile/
 
 ## 🎮 Live Demo
 
-Visit my website: [Coming Soon]
+Visit my website: https://codecubca.github.io/profile-website-george3-codecub
+
+## 📦 Repository
+
+GitHub: https://github.com/CodeCubCA/profile-website-george3-codecub
 
 ## 🎯 Features
 
