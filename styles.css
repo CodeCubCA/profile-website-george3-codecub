@@ -561,6 +561,14 @@ section {
     color: #000;
 }
 
+.tech-badge.gemini {
+    background: linear-gradient(135deg, #4285F4 0%, #8AB4F8 100%);
+}
+
+.tech-badge.render {
+    background: linear-gradient(135deg, #46E3B7 0%, #5DE8C0 100%);
+}
+
 /* Project Buttons */
 .project-buttons {
     display: flex;
