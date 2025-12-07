@@ -569,6 +569,74 @@ section {
     background: linear-gradient(135deg, #46E3B7 0%, #5DE8C0 100%);
 }
 
+.tech-badge.voice {
+    background: linear-gradient(135deg, #9C27B0 0%, #BA68C8 100%);
+}
+
+.tech-badge.gtts {
+    background: linear-gradient(135deg, #FF6B9D 0%, #FFA5C3 100%);
+}
+
+/* Featured Project Styles */
+.featured-project {
+    position: relative;
+    border: 2px solid transparent;
+    background: linear-gradient(#1a1a2e, #1a1a2e) padding-box,
+                linear-gradient(135deg, #9C27B0, #FF6B9D, #4285F4) border-box;
+    box-shadow: 0 8px 32px rgba(156, 39, 176, 0.3);
+}
+
+.featured-project:hover {
+    box-shadow: 0 12px 48px rgba(156, 39, 176, 0.5);
+    transform: translateY(-8px);
+}
+
+.featured-badge {
+    position: absolute;
+    top: 1.5rem;
+    right: 1.5rem;
+    background: linear-gradient(135deg, #9C27B0 0%, #FF6B9D 100%);
+    color: white;
+    padding: 0.5rem 1.25rem;
+    border-radius: 2rem;
+    font-size: 0.875rem;
+    font-weight: 600;
+    z-index: 10;
+    box-shadow: 0 4px 12px rgba(156, 39, 176, 0.4);
+    animation: pulse 2s ease-in-out infinite;
+}
+
+@keyframes pulse {
+    0%, 100% {
+        box-shadow: 0 4px 12px rgba(156, 39, 176, 0.4);
+    }
+    50% {
+        box-shadow: 0 4px 20px rgba(156, 39, 176, 0.6);
+    }
+}
+
+.project-features {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 0.75rem;
+    margin: 1.5rem 0;
+}
+
+.feature-item {
+    background: rgba(156, 39, 176, 0.1);
+    border-left: 3px solid #9C27B0;
+    padding: 0.75rem 1rem;
+    border-radius: 0.5rem;
+    font-size: 0.9rem;
+    color: #e0e0e0;
+    transition: all 0.3s ease;
+}
+
+.feature-item:hover {
+    background: rgba(156, 39, 176, 0.2);
+    transform: translateX(5px);
+}
+
 /* Project Buttons */
 .project-buttons {
     display: flex;
