@@ -577,6 +577,19 @@ section {
     background: linear-gradient(135deg, #FF6B9D 0%, #FFA5C3 100%);
 }
 
+.tech-badge.huggingface {
+    background: linear-gradient(135deg, #FFD21E 0%, #FFE066 100%);
+    color: #000;
+}
+
+.tech-badge.stablediffusion {
+    background: linear-gradient(135deg, #6366F1 0%, #8B5CF6 100%);
+}
+
+.tech-badge.pillow {
+    background: linear-gradient(135deg, #10B981 0%, #34D399 100%);
+}
+
 /* Featured Project Styles */
 .featured-project {
     position: relative;
